@@ -67,7 +67,7 @@ print(json_data)
 
 # print the json out as a csv
 for game in data:
-    print(f"{game['Date']},{game['Time']},{game['Home']},{game['Away']},{game['Location']}, {game['Division']}")
+    print(f"{game['Date']}, {game['Time']}, {game['Home']}, {game['Away']}, {game['Location']}, {game['Division']}")
 
 
 # Write the JSON data to a file
